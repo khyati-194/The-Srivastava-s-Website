@@ -205,9 +205,10 @@ justify-content: center;
 
       @media screen and (max-width:1000px){
         .sizing{
-          width:1200px; 
-          height: 700px;
+          width: 100%; 
+          height: auto;
         }
+        
       }
 
       @media screen and (max-width:900px){
@@ -219,8 +220,8 @@ justify-content: center;
 
       @media screen and (max-width:800px){
         .sizing{
-          width:900px; 
-          height: 700px;
+          width:100%; 
+          height: auto;
         }
 
         .tree1{
@@ -237,10 +238,6 @@ justify-content: center;
       }
 
       @media screen and (max-width:600px){
-        .sizing{
-          width:700px; 
-          height: 500px;
-        }
 
         h1{
           font-size: 30px;
@@ -250,11 +247,6 @@ justify-content: center;
         h5{
           font-size: 20px;
         }
-
-        /* .s1{
-          width: 15px;
-          height:15px;
-        } */
 
         ul li{
           font-size: 20px;
@@ -270,10 +262,6 @@ justify-content: center;
       }
 
       @media screen and (max-width:500px){
-        .sizing{
-          width:500px; 
-          height: 400px;
-        }
 
         ul li{
           font-size: 19px;
@@ -290,10 +278,6 @@ justify-content: center;
       }
 
       @media screen and (max-width:400px){
-        .sizing{
-          width:400px; 
-          height: 250px;
-        }
 
         ul li{
           font-size: 21px;
@@ -335,10 +319,6 @@ justify-content: center;
       }
 
       @media screen and (max-width:300px){
-        .sizing{
-          width:300px; 
-          height: 200px;
-        }
 
         h1{
           font-size:12px;
@@ -372,10 +352,6 @@ justify-content: center;
       }
 
       @media screen and (max-width:200px){
-        .sizing{
-          width:150px; 
-          height: 150px;
-        }
 
         h1{
           font-size: 12px;
