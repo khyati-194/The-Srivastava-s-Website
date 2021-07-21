@@ -208,6 +208,11 @@ justify-content: center;
           width: 100%; 
           height: auto;
         }
+
+        .centered {
+          top: 30%;
+          left: 50%;
+        }
         
       }
 
@@ -215,6 +220,10 @@ justify-content: center;
         .tree1{
           padding: 70px 70px;
           width: 800px;
+        }
+        .centered {
+          top: 35%;
+          left: 50%;
         }
       }
 
@@ -234,6 +243,15 @@ justify-content: center;
         .tree1{
           padding: 80px 80px;
           width: 620px;
+        }
+
+        .centered {
+          top: 35%;
+          left: 50%;
+        }
+
+        h1{
+          line-height:65px
         }
       }
 
@@ -279,6 +297,10 @@ justify-content: center;
 
       @media screen and (max-width:400px){
 
+        h1{
+          line-height: 40px;
+        }
+
         ul li{
           font-size: 21px;
           height: 38px;
@@ -322,8 +344,8 @@ justify-content: center;
 
         h1{
           font-size:12px;
-          line-height: 21px;
-          letter-spacing: 8px;
+          line-height: 17px;
+          letter-spacing: 5px;
 
         }
 
