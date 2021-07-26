@@ -301,6 +301,10 @@ body{
   }
 
   @media screen and (max-width:500px){
+
+    section{
+      padding-bottom: 350px;
+    }
     .front, .back {
       top: 130px;
       }
@@ -323,6 +327,10 @@ body{
   }
 
   @media screen and (max-width:400px){
+
+    section{
+      padding-bottom: 50px;
+    }
 
     .front, .back {
       top: 50px;
@@ -374,6 +382,10 @@ body{
   }
 
   @media screen and (max-width:300px){
+
+    section{
+      padding-bottom: 0px;
+    }
 
     .front, .back {
       top: -20px;
