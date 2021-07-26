@@ -191,6 +191,22 @@ body{
     }
   }
 
+  .front, .back {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    }
+
+    .front1, .back1 {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      }
+
   @media screen and (max-width:1000px){
 
     p{
@@ -223,6 +239,15 @@ body{
   }
 
   @media screen and (max-width:770px){
+
+    .front, .back {
+      top: 195px;
+      }
+
+      .front1, .back1 {
+        top: 380px;
+        }
+
     p{
       font-size:26px;
     }
@@ -260,6 +285,13 @@ body{
   }
 
   @media screen and (max-width:500px){
+    .front, .back {
+      top: 130px;
+      }
+
+      .front1, .back1 {
+        top: 260px;
+        }
 
     p{
       font-size:23px;
@@ -275,6 +307,14 @@ body{
   }
 
   @media screen and (max-width:400px){
+
+    .front, .back {
+      top: 50px;
+      }
+
+      .front1, .back1 {
+        top: 70px;
+        }
 
     p{
       font-size:21px;
@@ -318,6 +358,14 @@ body{
   }
 
   @media screen and (max-width:300px){
+
+    .front, .back {
+      top: -20px;
+      }
+
+      .front1, .back1 {
+        top: -100px;
+        }
 
     p{
       font-size:15px;
@@ -544,6 +592,8 @@ body{
       width: 100%;
       height: 100%;
       }
+
+
           .card__back .card {
     width: 100%;
     height: 450px;
@@ -590,6 +640,105 @@ body{
     -ms-transform: rotateY(0);
     transform: rotateY(0);
     }
+  
+    /* saroj bala eidts */
+
+      
+          .back .card {
+    width: 100%;
+    height: 450px;
+    }
+    
+    .front, .back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    }
+    
+    .front {
+    background-color: black;
+    }
+    
+    .back {
+    background-color: #1e1e1e;
+    -webkit-transform: rotateY(-180deg);
+     -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    }
+    
+    .card-flipper.effect__hover:hover .front {
+    -webkit-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    }
+    
+    .card-flipper.effect__hover:hover .back {
+    -webkit-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    transform: rotateY(0);
+    }
+    
+    .card-flipper.effect__random.flipped .front {
+    -webkit-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    }
+    
+    .card-flipper.effect__random.flipped .back {
+    -webkit-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    transform: rotateY(0);
+    }
+
+    /* upendra edits */
+
+    .back1 .card {
+      width: 100%;
+      height: 450px;
+      }
+      
+      .front1, .back1 {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      }
+      
+      .front1 {
+      background-color: black;
+      }
+      
+      .back1 {
+      background-color: #1e1e1e;
+      -webkit-transform: rotateY(-180deg);
+       -ms-transform: rotateY(-180deg);
+      transform: rotateY(-180deg);
+      }
+      
+      .card-flipper.effect__hover:hover .front1 {
+      -webkit-transform: rotateY(-180deg);
+      -ms-transform: rotateY(-180deg);
+      transform: rotateY(-180deg);
+      }
+      
+      .card-flipper.effect__hover:hover .back1 {
+      -webkit-transform: rotateY(0);
+      -ms-transform: rotateY(0);
+      transform: rotateY(0);
+      }
+      
+      .card-flipper.effect__random.flipped .front1 {
+      -webkit-transform: rotateY(-180deg);
+      -ms-transform: rotateY(-180deg);
+      transform: rotateY(-180deg);
+      }
+      
+      .card-flipper.effect__random.flipped .back1 {
+      -webkit-transform: rotateY(0);
+      -ms-transform: rotateY(0);
+      transform: rotateY(0);
+      }
 
     
     
