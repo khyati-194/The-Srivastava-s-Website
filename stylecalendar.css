@@ -13,8 +13,8 @@ body{
 
 /* image sizing */
 .sizing{
-  width:1500px; 
-  height: 1000px;
+  width:100%; 
+  height: auto;
 }
 
 h1{
@@ -175,6 +175,94 @@ h5{
     box-shadow: 0 0 15px orange;
     text-shadow: 0 0 15px orange;
   }
+/* calendar styling */
+
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One:400|Roboto:400,400italic,700);
+
+  .bg{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+.jzdbox1 {
+  width:440px; 
+  background:#332f2e; 
+  border-radius:5px; 
+  overflow:hidden; 
+  display:block; 
+  margin-bottom:10px; 
+  box-shadow:0 0 10px #201d1c; 
+  margin:0 auto; 
+  margin-top:70px;
+}
+
+.jzdcal {
+  padding:0 10px 10px 10px; 
+  box-sizing:border-box!important; 
+  background:#749d9e; 
+  background: -webkit-linear-gradient(#749d9e, #b3a68b)!important; 
+  background: -o-linear-gradient(#749d9e, #b3a68b)!important; 
+  background: -moz-linear-gradient(#749d9e, #b3a68b)!important; 
+  background: linear-gradient(#749d9e, #b3a68b)!important;
+}
+
+.jzdcalt {
+  font:18px 'Roboto'; 
+  font-weight:700; 
+  color:#f7f3eb; 
+  display:block; 
+  margin:18px 0 0 0; 
+  text-transform:uppercase; 
+  text-align:center; 
+  letter-spacing:1px;
+}
+
+.jzdcal span {
+  font:18px 'Roboto'; 
+  font-weight:400; 
+  color:#f7f3eb; 
+  text-align:center; 
+  width:50px; 
+  height:50px; 
+  display:inline-block; 
+  float: left; 
+  overflow:hidden; 
+  line-height:46px;
+}
+
+.jzdcal .jzdb:before {
+  opacity:0.3; 
+  content:'o';
+}
+
+.circle {
+  border:1px solid #f7f3eb; 
+  box-sizing:border-box!important; 
+  border-radius:200px!important;
+}
+
+span[data-title]{
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px,yellowgreen 0px 0px 20px,yellowgreen 0px 0px 30px,yellowgreen 0px 0px 40px,yellowgreen 0px 0px 50px,yellowgreen 0px 0px 75px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+span[data-title]:hover:after, 
+div[data-title]:hover:after {
+  font:11px 'Roboto'; 
+  font-weight:400; 
+  content:attr(data-title); 
+  position:absolute; 
+  margin:0 0 100px; 
+  background:#282423; 
+  border:1px solid #f7f3eb; 
+  color:#f7f3eb; 
+  padding:5px; 
+  z-index:9999; 
+  min-width:150px; 
+  max-width:150px;
+}
 
   @media screen and (max-width:1000px){
     .sizing{
@@ -236,6 +324,10 @@ h5{
 
   @media screen and (max-width:500px){
 
+    .jzdbox1{
+      width:370px;
+    }
+
     ul li{
       font-size: 19px;
       height: 36px;
@@ -246,6 +338,10 @@ h5{
   }
 
   @media screen and (max-width:400px){
+
+    .jzdbox1{
+      width:325px;
+    }
 
     h1{
       line-height: 40px;
@@ -261,6 +357,11 @@ h5{
   }
 
   @media screen and (max-width:350px){
+
+    .jzdbox1{
+      width:275px;
+    }
+
     h1{
       font-size:20px;
       line-height: 30px;
@@ -282,6 +383,11 @@ h5{
 
   @media screen and (max-width:300px){
 
+    .jzdbox1{
+      width:225px;
+      height:445px;
+    }
+
     h1{
       font-size:12px;
       line-height: 17px;
@@ -295,6 +401,12 @@ h5{
   }
 
   @media screen and (max-width:250px){
+
+    .jzdbox1{
+      width:176px;
+      height: auto;
+    }
+
     ul li{
       font-size: 20px;
       height: 19px;
@@ -305,6 +417,10 @@ h5{
   }
 
   @media screen and (max-width:200px){
+    .jzdbox1{
+      width: 90%;
+      height: auto;
+    }
 
     h1{
       font-size: 12px;
@@ -326,4 +442,7 @@ h5{
 
   }
 
+  /* styling of calendar */
+
+  
   
